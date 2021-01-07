@@ -1,0 +1,236 @@
+@import url('https://fonts.google.com/specimen/Barlow+Semi+Condensed');
+
+body,
+html {
+    width: 1440px;
+    background-color: hsl(0, 0%, 81%);
+}
+
+.grid-section {
+    display: grid;
+    padding: 10px;
+    margin: 150px 100px 100px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+/* Start card 1 */
+.container1 {
+    grid-column: 1 / span 3;
+    grid-row: 1;
+    background-color: hsl(263, 55%, 52%);
+    width: 42%;
+    height: 80%;
+    padding: 20px 20px 20px 20px;
+    border: 1px solid hsl(263, 55%, 52%);
+    border-radius: 10px;
+    background-image: url("/images/bg-pattern-quotation.svg");
+    background-repeat: no-repeat;
+    background-position: 366px 0px;
+}
+
+.user1 img {
+    width: 5.5%;
+    border-radius: 50%;
+    display: flex;
+    float: left;
+    margin-right: 15px;
+    border: 2px solid hsl(281, 44%, 70%, 1);
+    align-items: center;
+}
+
+.user1 strong {
+    color: hsl(300, 100%, 95%);
+}
+
+.user1 small {
+    color: hsl(300, 100%, 95%);
+    opacity: 50%;
+}
+
+.header1 {
+    color: hsl(300, 100%, 95%);
+}
+
+.content1 {
+    color: hsl(300, 100%, 95%);
+    opacity: 70%;
+}
+
+/* Ends card 1 */
+
+/* Start card 2 */
+.container2 {
+    grid-column: 2;
+    grid-row: 1;
+    background-color: hsl(217, 19%, 35%);
+    width: 51%;
+    height: 83.7%;
+    margin-left: 50%;
+    padding: 20px 10px 10px 20px;
+    border: 1px solid hsl(217, 19%, 35%);
+    border-radius: 10px;
+}
+
+.user2 img {
+    width: 13%;
+    border-radius: 50%;
+    display: flex;
+    float: left;
+    margin-right: 15px;
+    align-items: center;
+}
+
+.user2 strong {
+    color: hsl(0, 0%, 85%);
+}
+
+.user2 small {
+    color: hsl(0, 0%, 85%);
+    opacity: 50%;
+}
+
+.header2 {
+    color: hsl(0, 0%, 85%);
+}
+
+.content2 {
+    color: hsl(0, 0%, 85%);
+    opacity: 70%;
+}
+
+/* Ends card 2 */
+
+/* Start card 3 */
+.container3 {
+    grid-column: 1;
+    grid-row: 2;
+    background-color: hsl(0, 0%, 100%);
+    width: 53%;
+    margin-top: 13px;
+    padding: 20px 10px 10px 20px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 10px;
+}
+
+.user3 img {
+    width: 14%;
+    border-radius: 50%;
+    display: flex;
+    float: left;
+    margin-right: 15px;
+    align-items: center;
+}
+
+.user3 strong {
+    color: hsl(219, 29%, 14%);
+}
+
+.user3 small {
+    color: hsl(219, 29%, 14%);
+    opacity: 50%;
+}
+
+.header3 {
+    color: hsl(219, 29%, 14%)
+}
+
+.content3 {
+    color: hsl(219, 29%, 14%);
+    opacity: 70%;
+}
+
+/* Ends card 3 */
+
+/* Start card 4 */
+.container4 {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+    background-color: hsl(219, 29%, 14%);
+    width: 64.5%;
+    margin-left: 35%;
+    margin-top: 13px;
+    padding: 20px 20px 10px 20px;
+    border: 1px solid hsl(219, 29%, 14%);
+    border-radius: 10px;
+}
+
+.user4 img {
+    width: 6%;
+    border-radius: 50%;
+    display: flex;
+    float: left;
+    margin-right: 15px;
+    border: 2px solid hsl(282, 44%, 47%);
+    align-items: center;
+}
+
+.user4 strong {
+    color: hsl(0, 0%, 85%);
+}
+
+.user4 small {
+    color: hsl(0, 0%, 85%);
+    opacity: 50%;
+}
+
+.header4 {
+    color: hsl(0, 0%, 85%);
+}
+
+.content4 {
+    color: hsl(0, 0%, 85%);
+    opacity: 70%;
+}
+
+/* Ends card 4 */
+
+/* Start card 5 */
+.container5 {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+    background-color: hsl(0, 0%, 100%);
+    width: 48%;
+    margin-left: 17%;
+    padding: 20px 20px 20px 20px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 10px;
+}
+
+.user5 img {
+    width: 16%;
+    border-radius: 50%;
+    display: flex;
+    float: left;
+    margin-right: 15px;
+    align-items: center;
+}
+
+.user5 strong {
+    color: hsl(217, 19%, 35%);
+}
+
+.user5 small {
+    color: hsl(217, 19%, 35%);
+    opacity: 50%;
+}
+
+.header5 {
+    color: hsl(217, 19%, 35%);
+}
+
+.content5 {
+    color: hsl(217, 19%, 35%);
+    opacity: 70%;
+}
+
+/* End card 5 */
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
