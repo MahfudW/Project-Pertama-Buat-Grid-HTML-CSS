@@ -4,7 +4,7 @@
     body,
     html {
         width: 720px;
-        background-color: hsl(0, 0%, 81%);
+        background-color: hsl(0, 0%, 90%);
     }
 
     .grid-section {
@@ -248,7 +248,7 @@
     body,
     html {
         width: 375px;
-        background-color: hsl(0, 0%, 81%);
+        background-color: hsl(0, 0%, 90%);
     }
 
     .grid-section {
@@ -488,3 +488,6 @@
         color: hsl(228, 45%, 44%);
     }
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
