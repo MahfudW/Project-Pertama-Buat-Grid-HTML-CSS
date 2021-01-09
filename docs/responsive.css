@@ -490,11 +490,11 @@
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
 
     body,
     html {
-        width: 375px;
+        width: 900px;
         background-color: hsl(0, 0%, 90%);
     }
 
@@ -503,7 +503,7 @@
         padding: 10px;
         margin-top: 20px;
         margin-bottom: 20px;
-        margin-left: 40px;
+        margin-left: 90px;
         margin-right: 20px;
         font-size: 13px;
         font-weight: 600;
@@ -521,11 +521,11 @@
         border-radius: 10px;
         background-image: url("/images/bg-pattern-quotation.svg");
         background-repeat: no-repeat;
-        background-position: 158px 0px;
+        background-position: 458px 0px;
     }
 
     .user1 img {
-        width: 12%;
+        width: 5%;
         border-radius: 50%;
         display: flex;
         float: left;
@@ -560,16 +560,16 @@
         grid-row: 2;
         background-color: hsl(217, 19%, 35%);
         width: 75%;
-        height: 70%;
+        height: 60%;
         margin-left: 0.1px;
-        margin-top: 10%;
+        margin-top: 7%;
         padding: 26px 26px 26px 26px;
         border: 1px solid hsl(217, 19%, 35%);
         border-radius: 10px;
     }
 
     .user2 img {
-        width: 13%;
+        width: 5%;
         border-radius: 50%;
         display: flex;
         float: left;
@@ -604,14 +604,14 @@
         background-color: hsl(0, 0%, 100%);
         width: 75%;
         height: 68%;
-        margin-top: 7%;
+        margin-top: 6%;
         padding: 26px 26px 26px 26px;
         border: 1px solid hsl(0, 0%, 100%);
         border-radius: 10px;
     }
 
     .user3 img {
-        width: 13%;
+        width: 5%;
         border-radius: 50%;
         display: flex;
         float: left;
@@ -654,7 +654,7 @@
     }
 
     .user4 img {
-        width: 13%;
+        width: 5%;
         border-radius: 50%;
         display: flex;
         float: left;
@@ -689,7 +689,7 @@
         grid-row: 5;
         background-color: hsl(0, 0%, 100%);
         width: 75%;
-        height: 87%;
+        height: 63%;
         margin-left: 0%;
         margin-top: 10%;
         padding: 30px 30px 25px 30px;
@@ -698,7 +698,7 @@
     }
 
     .user5 img {
-        width: 13%;
+        width: 5%;
         border-radius: 50%;
         display: flex;
         float: left;
