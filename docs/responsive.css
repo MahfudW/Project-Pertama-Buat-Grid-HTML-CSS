@@ -4,7 +4,7 @@
     body,
     html {
         width: 720px;
-        background-color: hsl(0, 0%, 90%);
+        background-color: hsl(0, 0%, 100%);
     }
 
     .grid-section {
@@ -114,6 +114,7 @@
         padding: 26px 26px 26px 26px;
         border: 1px solid hsl(0, 0%, 100%);
         border-radius: 10px;
+        box-shadow: 0 2px 30px -10px rgba(0, 0, 0);
     }
 
     .user3 img {
@@ -201,6 +202,7 @@
         padding: 26px 26px 26px 26px;
         border: 1px solid hsl(0, 0%, 100%);
         border-radius: 10px;
+        box-shadow: 0 2px 30px -10px rgba(0, 0, 0);
     }
 
     .user5 img {
@@ -248,7 +250,7 @@
     body,
     html {
         width: 375px;
-        background-color: hsl(0, 0%, 90%);
+        background-color: hsl(0, 0%, 100%);
     }
 
     .grid-section {
@@ -361,6 +363,7 @@
         padding: 26px 26px 26px 26px;
         border: 1px solid hsl(0, 0%, 100%);
         border-radius: 10px;
+        box-shadow: 0 2px 30px -10px rgba(0, 0, 0);
     }
 
     .user3 img {
@@ -448,6 +451,7 @@
         padding: 30px 30px 25px 30px;
         border: 1px solid hsl(0, 0%, 100%);
         border-radius: 10px;
+        box-shadow: 0 2px 30px -10px rgba(0, 0, 0);
     }
 
     .user5 img {
@@ -495,7 +499,7 @@
     body,
     html {
         width: 900px;
-        background-color: hsl(0, 0%, 90%);
+        background-color: hsl(0, 0%, 100%);
     }
 
     .grid-section {
@@ -608,6 +612,7 @@
         padding: 26px 26px 26px 26px;
         border: 1px solid hsl(0, 0%, 100%);
         border-radius: 10px;
+        box-shadow: 0 2px 30px -10px rgba(0, 0, 0);
     }
 
     .user3 img {
@@ -695,6 +700,7 @@
         padding: 30px 30px 25px 30px;
         border: 1px solid hsl(0, 0%, 100%);
         border-radius: 10px;
+        box-shadow: 0 2px 30px -10px rgba(0, 0, 0);
     }
 
     .user5 img {

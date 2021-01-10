@@ -3,7 +3,7 @@
 body,
 html {
     width: 1440px;
-    background-color: hsl(0, 0%, 90%);
+    background-color: hsl(0, 0%, 100%);
 }
 
 .grid-section {
@@ -111,6 +111,7 @@ html {
     padding: 20px 10px 10px 20px;
     border: 1px solid hsl(0, 0%, 100%);
     border-radius: 10px;
+    box-shadow: 0 2px 30px -10px rgba(0, 0, 0);
 }
 
 .user3 img {
@@ -195,6 +196,7 @@ html {
     padding: 20px 20px 20px 20px;
     border: 1px solid hsl(0, 0%, 100%);
     border-radius: 10px;
+    box-shadow: 0 2px 30px -10px rgba(0, 0, 0);
 }
 
 .user5 img {
